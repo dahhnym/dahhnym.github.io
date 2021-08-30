@@ -11,5 +11,4 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jemoji"
   gem "jekyll-remote-theme"
-  gem "jekyll-paginate"
 end
