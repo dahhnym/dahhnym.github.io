@@ -2,7 +2,7 @@
 layout: post
 title: 자료형과 변수
 author: Tina
-
+date: 2021-09-02
 tags: BasicSyntax
 categories: [content]
 ---
