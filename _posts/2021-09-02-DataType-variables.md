@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 자료형과 변수
+tags: JavaScript, BasicSyntax
 categories: [content]
 ---
 
