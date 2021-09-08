@@ -11,7 +11,6 @@ categories: [content]
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9f65fd7-5e88-426f-aa88-e473f1f0396f/Untitled.png)
 
-출처: [https://beomy.github.io/tech/browser/async-defer/](https://beomy.github.io/tech/browser/async-defer/)
 
 ### `async` 를 사용했을 때
 
