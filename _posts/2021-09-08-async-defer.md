@@ -7,24 +7,20 @@ tags: JavaScript
 categories: [content]
 ---
 
-기본적으로 브라우저는 HTML 파싱을 하다가 <script>를 만나면 HTML 파싱을 중단하고 스크립트 리소스를 다운로드, 파싱, 실행한다 이럴 경우 화면을 렌더링하는데 그만큼 시간이 소모되므로 사용성이 떨어진다
-
- 
+기본적으로 브라우저는 HTML 파싱을 하다가 $$\lt$$script$$\gt$$를 만나면 HTML 파싱을 중단하고 스크립트 리소스를 다운로드, 파싱, 실행한다 이럴 경우 화면을 렌더링하는데 그만큼 시간이 소모되므로 사용성이 떨어진다
+   
 ![default-parse-graph](https://user-images.githubusercontent.com/74545780/132536510-815f7a68-508a-40c1-8be9-51e9e33ee0de.png)
- 
 
- 
- 
- 
-
+   
+    
 ### `async` 를 사용했을 때
-
+   
  
 ![async-parse-graph](https://user-images.githubusercontent.com/74545780/132536705-38c3675a-ff3d-4107-82ba-e420e850185a.png)
 
 async 속성을 추가한 경우
 
-HTML 파싱을 계속하다가 <script>를 만나면 스크립트 리소스를 다운로드하되 파싱을 중단하지 않는다 다운로드가 완료되면 파싱을 중단하고 스크립트를 실행한다
+HTML 파싱을 계속하다가 $$\lt$$script$$\gt$$를 만나면 스크립트 리소스를 다운로드하되 파싱을 중단하지 않는다 다운로드가 완료되면 파싱을 중단하고 스크립트를 실행한다
 
 ### 특징
 
@@ -51,7 +47,7 @@ HTML 파싱을 계속하다가 <script>를 만나면 스크립트 리소스를 �
  
 ![defer-parse-graph](https://user-images.githubusercontent.com/74545780/132536753-7daebffa-1325-4390-a3bb-81cbf4ad9626.png)
 
-HTML파싱하는 동안 <script>를 만나면 파싱 중단없이 스크립트 리소스를 다운로드하고 HTML 파싱이 완료되면 스크립트가 실행이 된다
+HTML파싱하는 동안 $$\lt$$script$$\gt$$를 만나면 파싱 중단없이 스크립트 리소스를 다운로드하고 HTML 파싱이 완료되면 스크립트가 실행이 된다
 
 정의된 순서대로 스크립트가 실행된다
 
@@ -73,4 +69,4 @@ HTML파싱하는 동안 <script>를 만나면 파싱 중단없이 스크립트 �
   
   
  
-참고자료: https://beomy.github.io/tech/browser/async-defer/
+[참고자료](https://beomy.github.io/tech/browser/async-defer/)
