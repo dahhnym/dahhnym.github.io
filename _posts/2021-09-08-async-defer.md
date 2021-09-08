@@ -66,7 +66,7 @@ HTML파싱하는 동안 &lt;script&gt;를 만나면 파싱 중단없이 스크�
 
 - DOM과 종속성이 있어서, DOM이 전부 생성되어야 정상적인 동작을 할 수 있는 경우
 - 스크립트 간 종속성이 있어서 정의된 순서대로 스크립트가 실행되어야 되는 경우
-  
-  
- 
-[참고자료](https://beomy.github.io/tech/browser/async-defer/)
+<br>
+<br>
+<br> 
+[참고자료 https://beomy.github.io/tech/browser/async-defer/] (https://beomy.github.io/tech/browser/async-defer/)
