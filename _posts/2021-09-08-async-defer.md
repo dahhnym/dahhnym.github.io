@@ -9,13 +9,8 @@ categories: [content]
 
 기본적으로 브라우저는 HTML 파싱을 하다가 &lt;script&gt;를 만나면 HTML 파싱을 중단하고 스크립트 리소스를 다운로드, 파싱, 실행한다 이럴 경우 화면을 렌더링하는데 그만큼 시간이 소모되므로 사용성이 떨어진다
 
-
-
-
-
-
-
-  ![default-parse-graph](https://user-images.githubusercontent.com/74545780/132536510-815f7a68-508a-40c1-8be9-51e9e33ee0de.png)
+ 
+![default-parse-graph](https://user-images.githubusercontent.com/74545780/132536510-815f7a68-508a-40c1-8be9-51e9e33ee0de.png)
 
 
 ### `async` 를 사용했을 때 
