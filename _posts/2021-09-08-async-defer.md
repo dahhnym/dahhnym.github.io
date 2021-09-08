@@ -69,4 +69,4 @@ HTML파싱하는 동안 &lt;script&gt;를 만나면 파싱 중단없이 스크�
 <br>
 <br>
 <br> 
-[참고자료 https://beomy.github.io/tech/browser/async-defer/](https://beomy.github.io/tech/browser/async-defer/)
+[참고자료](https://beomy.github.io/tech/browser/async-defer/)
