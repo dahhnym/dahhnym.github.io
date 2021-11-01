@@ -44,7 +44,7 @@ categories: [content]
 ▶️ 코드 실행 결과<br>
 <a href="https://www.naver.com">naver</a><br>
 <a href="https://www.naver.com" target="_blank">naver 새창열기</a><br>
-<a href="#three">페이지 내 해당 id로 이동</a><br>
+<a href="#three">페이지 내 해당 id를 가진 요소의 위치로 이동</a><br>
 
 <p id="one">id가 one인 문단입니다. Lorem ipsum dolor sit amet consectetur <mark>adipisicing</mark> elit. Deserunt deleniti, <i>debitis</i> suscipit impedit <em>eaque</em> necessitatibus aliquid asperiores aperiam fugiat quisquam dolorum nihil totam, distinctio cumque harum dolorem aut perferendis molestias?</p>
 <p id="two">id가 two인 문단입니다.Optio molestiae nihil accusantium necessitatibus, deleniti, mollitia placeat eum minima rem voluptas fugit suscipit vel cupiditate veritatis, illo sapiente at. Earum quis consequatur vero voluptate maiores debitis, quisquam quasi voluptas.</p>
@@ -100,8 +100,7 @@ abbr(abbreviation) 태그는 준말, 약자를 나타낼 때 사용한다. 해�
 <p>x<sup>2</sup>=4</p>
 {% endhighlight %}
 ▶️ 코드 실행 결과<br>
-<span>H<sub>2</sub>0</span>
+<span>H<sub>2</sub>0</span><br>
 <span>x<sup>2</sup>=4</span>
-<br>
-<br>
+<br><br><br>
 참고자료: [HTML elements reference](https://developer.mozilla.org/ko/docs/Web/HTML/Element)
