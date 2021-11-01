@@ -45,10 +45,11 @@ categories: [content]
 ▶️ 코드 실행 결과<br>
 <a href="https://www.naver.com">naver</a><br>
 <a href="https://www.naver.com" target="_blank">naver 새창열기</a><br>
-<a href="./index.html">상대경로</a><br>
 <a href="#three">페이지 내 해당 id로 이동</a><br>
-<a href="./index.html" download>html파일 다운로드</a><br>
 
+<p id="one">id가 one인 문단입니다. Lorem ipsum dolor sit amet consectetur <mark>adipisicing</mark> elit. Deserunt deleniti, <i>debitis</i> suscipit impedit <em>eaque</em> necessitatibus aliquid asperiores aperiam fugiat quisquam dolorum nihil totam, distinctio cumque harum dolorem aut perferendis molestias?</p>
+<p id="two">id가 two인 문단입니다.Optio molestiae nihil accusantium necessitatibus, deleniti, mollitia placeat eum minima rem voluptas fugit suscipit vel cupiditate veritatis, illo sapiente at. Earum quis consequatur vero voluptate maiores debitis, quisquam quasi voluptas.</p>
+<p id="three">id가 three인 문단입니다. Impedit quibusdam voluptas nesciunt vitae cumque saepe quae nam eum officiis perferendis ullam accusantium cupiditate nobis quia nulla rem fugiat enim exercitationem reprehenderit molestias molestiae, ad optio quos? Sequi, ipsa!</p>
 
 ### `<b>`, `<strong>`
 &lt;b&gt; 태그는 굵은 글꼴 표현할 때 사용. &lt;strong&gt; 태그는 굵은 글씨와 더불어 텍스트에 중요도를 더해준다.
@@ -57,7 +58,7 @@ categories: [content]
 <p> <b>To be</b>, or <b>not to be</b>: <strong>that</strong> is the question.</p>
 {% endhighlight %}
 <br>
-- 코드 실행 결과
+▶️ 코드 실행 결과<br>
 <b>To be</b>, or <b>not to be</b>: <strong>that</strong> is the question.
 <br><br>
 ### `<i>`, `<em>`
@@ -68,7 +69,7 @@ categories: [content]
 </p>
 {% endhighlight %}
 <br>
-- 코드 실행 결과
+▶️ 코드 실행 결과<br>
 <i>Life</i>’s but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying <em>nothing</em>.
 <br><br>
 
@@ -78,7 +79,7 @@ categories: [content]
 <p>Love looks not with the eyes, but <mark>with the mind</mark>; and therefore is winged Cupid painted blind.</p>
 {% endhighlight %}
 <br>
-- 코드 실행 결과
+▶️ 코드 실행 결과<br>
 <p>Love looks not with the eyes, but <mark>with the mind</mark>; and therefore is winged Cupid painted blind.</p>
 <br><br>
 
@@ -91,13 +92,21 @@ abbr(abbreviation) 태그는 준말, 약자를 나타낼 때 사용한다. 해�
 </p>
 {% endhighlight %}
 <br>
-
+▶️ 코드 실행 결과<br>
+<p>
+  <abbr title="Korea Internet & Security Agency">KISA</abbr>는 대한민국의 인터넷 진흥, 인터넷 정보보호 및 그에 대한 국제 협력 업무를 수행하는 과학기술정보통신부 산하 위탁집행형 준정부기관이다.
+  - 위키백과
+</p>
+<br><br>
 ### `<sup>`, `<sub>`
 &lt;sup&gt; 태그는 윗첨자, &lt;sub&gt; 태그는 아랫첨자를 나타낸다. 화학기호나 수학공식 등의 첨자 기호를 나타낼 때 사용한다.
 {% highlight markdown %}
 <p>H<sub>2</sub>0</p>
 <p>x<sup>2</sup>=4</p>
 {% endhighlight %}
+▶️ 코드 실행 결과<br>
+<p>H<sub>2</sub>0</p>
+<p>x<sup>2</sup>=4</p>
 <br>
 <br>
 참고자료: [HTML elements reference](https://developer.mozilla.org/ko/docs/Web/HTML/Element)
