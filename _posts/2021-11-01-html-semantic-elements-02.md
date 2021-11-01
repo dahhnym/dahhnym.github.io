@@ -36,7 +36,7 @@ categories: [content]
 <!-- href 경로에 적혀있는 html 파일 다운로드 -->
 <a href="./index.html" download>html파일 다운로드</a>
 
-<p id="one">id가 one인 문단입니다. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti, <i>debitis</i> suscipit impedit <em>eaque</em> necessitatibus aliquid asperiores aperiam fugiat quisquam dolorum nihil totam, distinctio cumque harum dolorem aut perferendis molestias?</p>
+<p id="one">id가 one인 문단입니다. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti, debitis suscipit impedit <em>eaque</em> necessitatibus aliquid asperiores aperiam fugiat quisquam dolorum nihil totam, distinctio cumque harum dolorem aut perferendis molestias?</p>
 <p id="two">id가 two인 문단입니다.Optio molestiae nihil accusantium necessitatibus, deleniti, mollitia placeat eum minima rem voluptas fugit suscipit vel cupiditate veritatis, illo sapiente at. Earum quis consequatur vero voluptate maiores debitis, quisquam quasi voluptas.</p>
 <p id="three">id가 three인 문단입니다. Impedit quibusdam voluptas nesciunt vitae cumque saepe quae nam eum officiis perferendis ullam accusantium cupiditate nobis quia nulla rem fugiat enim exercitationem reprehenderit molestias molestiae, ad optio quos? Sequi, ipsa!</p>
 {% endhighlight %}
@@ -46,7 +46,7 @@ categories: [content]
 <a href="https://www.naver.com" target="_blank">naver 새창열기</a><br>
 <a href="#three">페이지 내 해당 id를 가진 요소의 위치로 이동</a><br>
 
-<p id="one">id가 one인 문단입니다. Lorem ipsum dolor sit amet consectetur <mark>adipisicing</mark> elit. Deserunt deleniti, <i>debitis</i> suscipit impedit <em>eaque</em> necessitatibus aliquid asperiores aperiam fugiat quisquam dolorum nihil totam, distinctio cumque harum dolorem aut perferendis molestias?</p>
+<p id="one">id가 one인 문단입니다. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti, debitis suscipit impedit <em>eaque</em> necessitatibus aliquid asperiores aperiam fugiat quisquam dolorum nihil totam, distinctio cumque harum dolorem aut perferendis molestias?</p>
 <p id="two">id가 two인 문단입니다.Optio molestiae nihil accusantium necessitatibus, deleniti, mollitia placeat eum minima rem voluptas fugit suscipit vel cupiditate veritatis, illo sapiente at. Earum quis consequatur vero voluptate maiores debitis, quisquam quasi voluptas.</p>
 <p id="three">id가 three인 문단입니다. Impedit quibusdam voluptas nesciunt vitae cumque saepe quae nam eum officiis perferendis ullam accusantium cupiditate nobis quia nulla rem fugiat enim exercitationem reprehenderit molestias molestiae, ad optio quos? Sequi, ipsa!</p>
 <br><br>
