@@ -42,6 +42,14 @@ categories: [content]
 
 {% endhighlight %}
 
+▶️ 코드 실행 결과<br>
+<a href="https://www.naver.com">naver</a><br>
+<a href="https://www.naver.com" target="_blank">naver 새창열기</a><br>
+<a href="./index.html">상대경로</a><br>
+<a href="#three">페이지 내 해당 id로 이동</a><br>
+<a href="./index.html" download>html파일 다운로드</a><br>
+
+
 ### `<b>`, `<strong>`
 &lt;b&gt; 태그는 굵은 글꼴 표현할 때 사용. &lt;strong&gt; 태그는 굵은 글씨와 더불어 텍스트에 중요도를 더해준다.
 예를 들어 페이지를 스크린 리더기가 읽어주는 경우 &lt;strong&gt; 태그가 있는 부분은 강조해서 읽어준다.
