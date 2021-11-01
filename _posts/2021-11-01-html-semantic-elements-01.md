@@ -12,7 +12,7 @@ categories: [content]
 
 ### `<main>`
 문서의 주요 콘텐츠를 나타낸다. 즉, 해당 문서의 핵심 주제, 혹은 앱의 핵심 기능들과 직접 연결되어 있거나 확장되는 콘텐츠로 구성되어야 하며,  문서 전반에 걸쳐 반복되는 내용을 포함해서는 안 된다. main 요소가 사이트의 메인 컨텐츠를 모두 담고 있어야하며 header, nav 등의 다른 요소의 자식 요소가 되어서는 안된다. IE에서는 지원하지 않는 태그이므로 사용에 주의 필요.
-<br>
+<br><br>
 ![main tag usage example - uber](https://user-images.githubusercontent.com/74545780/139697271-a97fcfa5-14eb-4021-b12b-8bb8212c74bf.png "main-tag-usage-exmaple-uber")
 _main 태그 내에 메인 컨텐츠를 담고 있는 예시_우버 홈페이지_
 
