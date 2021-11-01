@@ -3,7 +3,7 @@ layout: post
 title: HTML 시맨틱 태그(Semantic Tag) - 콘텐츠 구획
 author: Tina
 date: 2021-11-01
-tags: htmlElement html htmlBasic
+tags: htmlElement html
 categories: [content]
 --- 
 
